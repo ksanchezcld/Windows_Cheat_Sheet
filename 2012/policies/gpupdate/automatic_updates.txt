@@ -1,0 +1,16 @@
+In the GPMC, the user settings for automatic computer updates are located in the path: PolicyName > User Configuration > Policies > Administrative Templates > Windows Components > Windows Update. The settings are listed in the same order as they appear in the Computer Configuration and User Configuration extensions in Group Policy, when the Settings tab of the Windows Update policy is selected to sort the settings alphabetically.
+
+- Tools
+- GP Manager
+- Domain.local
+- Create New GPO - Wupdatepol
+- Security Filtering, Add -> group of PCs
+- Wupdatepol -> Edit -> Policies -> Admin Templates -> Windows Components -> Windows Update -> Configure Auto Update (option 4)
+
+
+Generate a Report
+
+Wupdatepol -> Settings
+
+
+sysdm.cpl  --> Computer INFO
